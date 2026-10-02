@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   const SizedBox(height: 24),
                   const Divider(),
                   Text(
-                    'Seleccionados (\${_seleccionados.length}):',
+                    'Seleccionados (${_seleccionados.length}):',
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 8),
